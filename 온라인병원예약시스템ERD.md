@@ -1,3 +1,4 @@
+```mermaid
 CREATE TABLE patient_information (
     patient_id INT PRIMARY KEY,
     patient_name VARCHAR(50),
@@ -36,3 +37,4 @@ CREATE TABLE doctor_information (
     FOREIGN KEY (b_patient_id) REFERENCES patient_information(patient_id),
     FOREIGN KEY (b_doctor_id) REFERENCES doctor_information(doctor_id)
 );
+```
